@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "01f5c3107c99adca",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ef69059d28c58f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fc2e45461ff5fb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NeRF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79be84d29e749a72",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c64d0af4d10acd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03b513ddc0448f06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84715c7ae5ff0740",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f0f323d6d60ad66",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "95cd06bb80d73c09",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac81ceb7ba66fa5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08475cafdda04c66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NeRF.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2d4c68dc6ac9e87",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NeRF.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7bacc5617a2b1616",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "89182290ce562b98",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NeRF.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1fc2e45461ff5fb6",
+  "lastOpenFiles": []
+}
