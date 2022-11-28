@@ -15,6 +15,8 @@
 1. check available model `ns-train --help`
 2. torch version check in anaconda `pip3 show torch`
 3. With a specified websocket port `ns-train nerfacto --vis viewer --viewer.websocket-port=7008`
+4. Resume training from one certain point `ns-train nerfacto --data data/nerfstudio/poster --trainer.load-dir {outputs/.../nerfstudio_models}`
+5. Pre processing custom data `ns-process-data images --data data/custom_data --output-dir outputs/custom_data_preprocessed --no-gpu`
 
 **Anaconda**
 1. Creating conda env `conda create --name nerfstudio -y python=3.8`
