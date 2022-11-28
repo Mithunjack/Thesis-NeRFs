@@ -4,7 +4,10 @@
 ### paper link: https://arxiv.org/pdf/2003.08934.pdf
 
 
-**Usefull commands 👽**
+
+
+
+## Usefull commands 👽
 
 **Linux 🤸**
 1. Cude Version `nvidia-smi` // 11.8
