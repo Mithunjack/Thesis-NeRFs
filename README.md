@@ -19,7 +19,7 @@
 7. nvcc version `nvcc -V`
 8. to find or locate file `locate {nvcc}`
 9. pytorch -v // 1.12.1+cu113
-10.linux background proccessing `htop`
+10. linux background proccessing `htop`
 
 
 **NerfStudio ✈️**
