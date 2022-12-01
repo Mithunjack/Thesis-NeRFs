@@ -1,8 +1,8 @@
 # Thesis-NeRFs
 
 ## NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
-### paper link: https://arxiv.org/pdf/2003.08934.pdf
-
+#### [Paper]( https://arxiv.org/pdf/2003.08934.pdf)
+#### [NeRFstudio Documentation](https://docs.nerf.studio/en/latest/quickstart/installation.html)
 
 
 
