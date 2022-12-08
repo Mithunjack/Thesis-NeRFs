@@ -20,6 +20,7 @@
 8. to find or locate file `locate {nvcc}`
 9. pytorch -v // 1.12.1+cu113
 10. linux background proccessing `htop`
+11. Kill VS code server `Remote-SSH: kill VS Code Server on Host` [Documentation](https://github.com/microsoft/vscode-remote-release/issues/4307)
 
 
 **NerfStudio ✈️**
