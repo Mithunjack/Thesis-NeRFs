@@ -1,4 +1,4 @@
-# Thesis-NeRFs 🖼️
+# Thesis-NeRFs 🧩
 
 ## NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis 😱
 #### [Paper]( https://arxiv.org/pdf/2003.08934.pdf) 📔 
