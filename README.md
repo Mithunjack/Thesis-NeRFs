@@ -35,4 +35,5 @@
 1. Creating conda env `conda create --name nerfstudio -y python=3.8`
 2. Activate env `conda activate nerfstudio`
 3. active env `conda info -e`
+4. Jupyter notebook password [setup](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
 
