@@ -1,0 +1,16 @@
+{
+  "fl_x": 1072.281897246229, // focal length x
+  "fl_y": 1068.6906965388932, // focal length y
+  "cx": 1504.0, // principal point x
+  "cy": 1000.0, // principal point y
+  "w": 3008, // image width
+  "h": 2000, // image height
+  "camera_model": "OPENCV_FISHEYE", // camera model type
+  "k1": 0.03126218448029553, // first radial distorial parameter
+  "k2": 0.005177020067511987, // second radial distorial parameter
+  "k3": 0.0006640977794272005, // third radial distorial parameter
+  "k4": 0.00010067035656515042, // fourth radial distorial parameter
+  "p1": -6.472477652140879e-5, // first tangential distortion parameter
+  "p2": -1.374647851912992e-7, // second tangential distortion parameter
+  "frames": // ... extrinsics parameters explained below
+}
