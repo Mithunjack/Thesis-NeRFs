@@ -1,3 +1,4 @@
+// Camera intrinsics
 {
   "fl_x": 1072.281897246229, // focal length x
   "fl_y": 1068.6906965388932, // focal length y
@@ -14,3 +15,28 @@
   "p2": -1.374647851912992e-7, // second tangential distortion parameter
   "frames": // ... extrinsics parameters explained below
 }
+  
+  
+  
+// Camera extrinsics
+// For a transform matrix, the first 3 columns are the +X, +Y, and +Z defining the camera orientation,
+// and the X, Y, Z values define the origin. The last row is to be compatible with homogeneous coordinates.
+  
+  {
+  // ... intrinsics parameters
+  "frames": [
+    {
+      "file_path": "images/frame_00001.jpeg",
+      "transform_matrix": [
+        // [+X0  +Y0  +Z0  X  ]
+        // [+X1  +Y1  +Z1  Y  ]
+        // [+X2  +Y2  +Z2  Z  ]
+        // [0.0  0.0  0.0  1  ]
+           [1.0, 0.0, 0.0, 0.0],
+           [0.0, 1.0, 0.0, 0.0],
+           [0.0, 0.0, 1.0, 0.0],
+           [0.0, 0.0, 0.0, 1.0]
+      ]
+      }
+    ]
+  }
