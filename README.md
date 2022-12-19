@@ -3,6 +3,7 @@
 ## NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis 😱
 #### [Paper]( https://arxiv.org/pdf/2003.08934.pdf) 📔 
 #### [NeRFstudio Documentation](https://docs.nerf.studio/en/latest/quickstart/installation.html) 📄 
+#### [Dataset Formet](https://docs.nerf.studio/en/latest/quickstart/data_conventions.html) 🥴
 
 
 
@@ -34,4 +35,5 @@
 1. Creating conda env `conda create --name nerfstudio -y python=3.8`
 2. Activate env `conda activate nerfstudio`
 3. active env `conda info -e`
+4. Jupyter notebook password [setup](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
 
