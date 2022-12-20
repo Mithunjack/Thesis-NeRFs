@@ -36,4 +36,7 @@
 2. Activate env `conda activate nerfstudio`
 3. active env `conda info -e`
 4. Jupyter notebook password [setup](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
+5. Remove env `conda env remove -n ENV_NAME`
+6. Remove all env `conda remove --name myenv --all`
+7. Env list `conda env list`
 
