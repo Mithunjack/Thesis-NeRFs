@@ -40,3 +40,15 @@
 6. Remove all env `conda remove --name myenv --all`
 7. Env list `conda env list`
 
+
+## Usefull tools for Literature Review 🛠️
+
+1. Literature review -> [Paper Digest](https://www.paperdigest.org/review/) With the help of AI it gives a overview about any paper and all related works. 
+2. The AI Research Assistant -> [Elicit](https://elicit.org/)
+3. An app that visualizes all of the related papers for a specific paper -> [Litmap](https://www.litmaps.com/)
+4. Similar to Litmap, but using a different linked paper visualization website-> [Connected paper](https://www.connectedpapers.com/)
+5. For improved writing efficiency -> [Writefull](https://www.writefull.com/)
+6. For creating custom vectors or biologically themed graphics -> [Bio render](https://biorender.com/)
+7. Similarly, litmap and connected paper provide another option -> [scite](https://scite.ai/)
+8. Reference Manager -> [Zotero](https://www.zotero.org/)
+9. Alternative Reference Manager -> [Mandele](https://www.mendeley.com/?interaction_required=true)
