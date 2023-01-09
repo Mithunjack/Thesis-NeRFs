@@ -23,6 +23,8 @@
 10. linux background proccessing `htop`
 11. Kill VS code server `Remote-SSH: kill VS Code Server on Host` [Documentation](https://github.com/microsoft/vscode-remote-release/issues/4307)
 12. Installing stuff without `sudo` [Documentation](https://askubuntu.com/questions/339/how-can-i-install-a-package-without-root-access) 
+13. Extract file `tar -xvf cmake-3.x.x.tar.gz`
+14. Debian-based Linux Destribution: `cat /etc/os-release`
 
 
 **NerfStudio ✈️**
