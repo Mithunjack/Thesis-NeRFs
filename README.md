@@ -25,7 +25,8 @@
 12. Installing stuff without `sudo` [Documentation](https://askubuntu.com/questions/339/how-can-i-install-a-package-without-root-access) 
 13. Extract file `tar -xvf cmake-3.x.x.tar.gz`
 14. Debian-based Linux Destribution: `cat /etc/os-release`
-
+15. Change GPU `export CUDA_VISIBLE_DEVICES=1`
+16. For building CMAKE `cmake . -B build -DCMAKE_CUDA_COMPILER:STRING="/usr/local/cuda-11.8/bin/nvcc"`
 
 **NerfStudio ✈️**
 1. check available model `ns-train --help`
