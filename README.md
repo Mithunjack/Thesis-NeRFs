@@ -1,9 +1,7 @@
 # Thesis-NeRFs 🧩
 
 ## NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis 😱
-#### [Paper]( https://arxiv.org/pdf/2003.08934.pdf) 📔 
-#### [NeRFstudio Documentation](https://docs.nerf.studio/en/latest/quickstart/installation.html) 📄 
-#### [Dataset Formet](https://docs.nerf.studio/en/latest/quickstart/data_conventions.html) 🥴
+#### Most Important paper for TEM -> [NerfMM](https://nerfmm.active.vision./) 📔 
 
 
 
@@ -28,6 +26,7 @@
 15. Change GPU `export CUDA_VISIBLE_DEVICES=1`
 16. For building CMAKE `cmake . -B build -DCMAKE_CUDA_COMPILER:STRING="/usr/local/cuda-11.8/bin/nvcc"`
 
+#### [NeRFstudio Documentation](https://docs.nerf.studio/en/latest/quickstart/installation.html) 📄 
 **NerfStudio ✈️**
 1. check available model `ns-train --help`
 2. torch version check in anaconda `pip3 show torch`
