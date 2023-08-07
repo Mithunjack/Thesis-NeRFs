@@ -1,8 +1,7 @@
 # Thesis-NeRFs 🧩
 
 ## NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis 😱
-#### [Paper]( https://arxiv.org/pdf/2003.08934.pdf) 📔 
-#### Most Important paper for TEM -> [NerfMM](https://nerfmm.active.vision./)
+#### Most Important paper for TEM -> [NerfMM-Paper](https://nerfmm.active.vision./) 📔 
 #### [NeRFstudio Documentation](https://docs.nerf.studio/en/latest/quickstart/installation.html) 📄 
 
 
