@@ -119,7 +119,6 @@ def initialize_camera_parameters(images, device='cpu'):
     camera_extrinsics = torch.zeros((images.shape[0], 6), device=device, dtype=torch.float32, requires_grad=True)
     return camera_intrinsics, camera_extrinsics
 
-
 def load_images(data_path):
     image_paths = glob.glob(data_path)
     images = None
@@ -177,11 +176,15 @@ def sample_batch(camera_extrinsics, camera_intrinsics, images, batch_size, H, W,
     return rays_o_world, F.normalize(rays_d_world, p=2, dim=1), (image_indices, v.cpu(), u.cpu())
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
+    
+    print("Initializing...")
     device = 'cuda'
     nb_epochs = int(1e4)
 
-    training_images = load_images("fern/images_4/*.png")
+    print("Loading images...")
+    training_images = load_images("TEM_Data/*.jpg")
+    print("Loaded {} images".format(len(training_images)))
     camera_intrinsics, camera_extrinsics = initialize_camera_parameters(training_images, device=device)
     batch_size = 1024
 
