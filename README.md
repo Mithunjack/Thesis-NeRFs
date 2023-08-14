@@ -1,6 +1,6 @@
 # Thesis-NeRFs 🧩
 
-## NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis 😱
+## NeRF: Denoising 3D TEM tomography via Advanced Neural Radiance Fields 😱
 #### Most Important paper for TEM -> [NerfMM](https://nerfmm.active.vision./) 📔 
 
 
