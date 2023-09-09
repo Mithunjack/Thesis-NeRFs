@@ -1,6 +1,6 @@
 # Thesis-NeRFs 🧩
 
-##  Denoising 3D TEM tomography via Advanced Neural Radiance Fields(NeRF) 😱
+##  Denoising 3D TEM tomography via Advanced Neural Radiance Fields(NeRF) 
 #### Most Important paper for TEM -> [NerfMM](https://nerfmm.active.vision./) 📔 
 
 
