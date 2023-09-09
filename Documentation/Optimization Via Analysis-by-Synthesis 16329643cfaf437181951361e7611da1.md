@@ -1,1 +1,0 @@
-# Optimization Via Analysis-by-Synthesis

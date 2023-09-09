@@ -1,1 +1,0 @@
-# Photorealistic novel view
