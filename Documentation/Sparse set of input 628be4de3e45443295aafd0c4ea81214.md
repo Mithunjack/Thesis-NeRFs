@@ -1,1 +1,0 @@
-# Sparse set of input
