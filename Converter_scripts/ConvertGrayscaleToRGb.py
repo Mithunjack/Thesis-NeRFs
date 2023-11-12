@@ -45,3 +45,7 @@ for file_name in grayscale_files:
         print("The image is not in RGB format.")
 
 print("Conversion and enhancement completed.")
+
+
+
+
