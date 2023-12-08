@@ -47,7 +47,7 @@
 ## Usefull tools for Literature Review 🛠️
 
 1. It provides an overview of any article and all related research with the assistance of AI -> [Paper Digest](https://www.paperdigest.org/review/). 
-2. The AI Research Assistant -> [Elicit](https://elicit.org/)
+2. The AI Research Assistant -> [Elicit](https://elicit.org/) | [Scispace](https://typeset.io/)
 3. An app that visualizes all of the related papers for a specific paper -> [Litmap](https://www.litmaps.com/)
 4. Similar to Litmap, but using a different linked paper visualization website-> [Connected paper](https://www.connectedpapers.com/)
 5. For improved writing efficiency -> [Writefull](https://www.writefull.com/)
