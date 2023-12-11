@@ -4,10 +4,6 @@
 
 #### Most Important paper for TEM -> [NerfMM](https://nerfmm.active.vision./) 📔
 
-## Thesis Architecture 🧩
-
-![Alt text](Thesis Architecture Image.png)
-
 ## Usefull commands 👽
 
 **Linux 🤸**
@@ -51,12 +47,17 @@
 
 ## Usefull tools for Literature Review 🛠️
 
+<<<<<<< HEAD
+
 1. It provides an overview of any article and all related research with the assistance of AI -> [Paper Digest](https://www.paperdigest.org/review/).
-2. The AI Research Assistant -> [Elicit](https://elicit.org/)
-3. An app that visualizes all of the related papers for a specific paper -> [Litmap](https://www.litmaps.com/)
-4. Similar to Litmap, but using a different linked paper visualization website-> [Connected paper](https://www.connectedpapers.com/)
-5. For improved writing efficiency -> [Writefull](https://www.writefull.com/)
-6. For creating custom vectors or biologically themed graphics -> [Bio render](https://biorender.com/)
-7. Similarly, litmap and connected paper provide another option -> [scite](https://scite.ai/)
-8. Reference Manager -> [Zotero](https://www.zotero.org/)
-9. Alternative Reference Manager -> [Mandele](https://www.mendeley.com/?interaction_required=true)
+2. # The AI Research Assistant -> [Elicit](https://elicit.org/)
+3. It provides an overview of any article and all related research with the assistance of AI -> [Paper Digest](https://www.paperdigest.org/review/).
+4. The AI Research Assistant -> [Elicit](https://elicit.org/) | [Scispace](https://typeset.io/)
+   > > > > > > > a496cf8322ef786e1d9601bfcf29885307f475e0
+5. An app that visualizes all of the related papers for a specific paper -> [Litmap](https://www.litmaps.com/)
+6. Similar to Litmap, but using a different linked paper visualization website-> [Connected paper](https://www.connectedpapers.com/)
+7. For improved writing efficiency -> [Writefull](https://www.writefull.com/)
+8. For creating custom vectors or biologically themed graphics -> [Bio render](https://biorender.com/)
+9. Similarly, litmap and connected paper provide another option -> [scite](https://scite.ai/)
+10. Reference Manager -> [Zotero](https://www.zotero.org/)
+11. Alternative Reference Manager -> [Mandele](https://www.mendeley.com/?interaction_required=true)
