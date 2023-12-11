@@ -7,7 +7,7 @@
 ## Thesis Architecture 🧩
 
 
-![Thesis Architecture Image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/b3466c08-9acd-46c2-904b-d85cfd296900)
+![Thesis Architecture Image](https://github.com/Mithunjack/Thesis-NeRFs/Thesis_Architecture.svg)
 
 ## Usefull commands 👽
 
@@ -53,7 +53,7 @@
 ## Usefull tools for Literature Review 🛠️
 
 1. It provides an overview of any article and all related research with the assistance of AI -> [Paper Digest](https://www.paperdigest.org/review/).
-2. # The AI Research Assistant -> [Elicit](https://elicit.org/)
+2. The AI Research Assistant -> [Elicit](https://elicit.org/)
 3. It provides an overview of any article and all related research with the assistance of AI -> [Paper Digest](https://www.paperdigest.org/review/).
 4. The AI Research Assistant -> [Elicit](https://elicit.org/) | [Scispace](https://typeset.io/)
 5. An app that visualizes all of the related papers for a specific paper -> [Litmap](https://www.litmaps.com/)
