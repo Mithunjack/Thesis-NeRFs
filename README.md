@@ -6,7 +6,8 @@
 
 ## Thesis Architecture 🧩
 
-![Alt text](Thesis Architecture Image.png)
+
+![Thesis Architecture Image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/b3466c08-9acd-46c2-904b-d85cfd296900)
 
 ## Usefull commands 👽
 
