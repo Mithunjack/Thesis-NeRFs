@@ -5,8 +5,9 @@
 #### Most Important paper for TEM -> [NerfMM](https://nerfmm.active.vision./) 📔
 
 ## Thesis Architecture 🧩
+![Thesis Architecture](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/e825be39-6330-4035-8509-22823a032f47)
 
-![Thesis Architecture Image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/b724cc59-f3d7-4851-939a-6c427d58567c)
+
 
 ## Usefull commands 👽
 
