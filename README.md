@@ -10,7 +10,8 @@
 ## Result
 ![comparison_image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/3a58b1a8-b49f-482a-b1db-0cc6e7566baa)
 
-
+## 3D Construction of TEM image
+![TEM_Data_img](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/4ccdd5e3-e358-4759-937b-8806f98c4698)
 
 ## Usefull commands 👽
 
