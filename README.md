@@ -7,6 +7,8 @@
 ## Thesis Architecture 🧩
 ![Thesis Architecture](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/0763edb5-8c52-4102-9a76-0730262c3c53)
 
+## Result
+![comparison_image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/3a58b1a8-b49f-482a-b1db-0cc6e7566baa)
 
 
 
