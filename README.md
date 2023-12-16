@@ -14,7 +14,8 @@
 
 
 ## 3D Construction of TEM image(Dataset 4)
-![TEM_Data_img](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/4ccdd5e3-e358-4759-937b-8806f98c4698)
+![TEM_Data_img](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/8099128c-2ef9-47ff-bf0e-3814772018f8)
+
 
 ## Useful Commands 👽
 <details>
