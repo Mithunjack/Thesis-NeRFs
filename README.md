@@ -7,10 +7,16 @@
 ## Thesis Architecture 🧩
 ![Thesis Architecture](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/0763edb5-8c52-4102-9a76-0730262c3c53)
 
-## Result
-![comparison_image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/3a58b1a8-b49f-482a-b1db-0cc6e7566baa)
+## Result Denoising 
 
-## 3D Construction of TEM image
+### Dataset 4
+<img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/7282fd5f-be01-42b9-ab3e-061162a43732" height="300"> 
+
+### Dataset 7
+<img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/3a58b1a8-b49f-482a-b1db-0cc6e7566baa" height="300">
+
+
+## 3D Construction of TEM image(Dataset 4)
 ![TEM_Data_img](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/4ccdd5e3-e358-4759-937b-8806f98c4698)
 
 ## Usefull commands 👽
