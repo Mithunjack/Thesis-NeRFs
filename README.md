@@ -7,11 +7,12 @@
 ## Result Denoising 
 
 ### Dataset 4
-![comparison_image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/ab3d2f65-e0a6-492e-ba0b-7120f8b82df5)
+![Single_Image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/6683d109-fdfe-4436-81df-ff20cc327e54)
+
 
 
 ### Dataset 7
-<img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/3a58b1a8-b49f-482a-b1db-0cc6e7566baa" height="250">
+![comparison_image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/ab3d2f65-e0a6-492e-ba0b-7120f8b82df5)
 
 
 ## 3D Construction of TEM image(Dataset 4)
