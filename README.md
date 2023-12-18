@@ -7,7 +7,8 @@
 ## Result Denoising 
 
 ### Dataset 4
-<img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/7282fd5f-be01-42b9-ab3e-061162a43732" height="250"> 
+![comparison_image](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/ab3d2f65-e0a6-492e-ba0b-7120f8b82df5)
+
 
 ### Dataset 7
 <img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/3a58b1a8-b49f-482a-b1db-0cc6e7566baa" height="250">
