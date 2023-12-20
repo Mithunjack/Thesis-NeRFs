@@ -8,7 +8,7 @@
 
 ### Dataset 4
 <img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/6683d109-fdfe-4436-81df-ff20cc327e54" height="250">
-
+<img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/5a1fd5a8-1dc7-401a-b326-00b2c40ccb58" height="250">
 
 
 ### Dataset 7
