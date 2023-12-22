@@ -1,7 +1,7 @@
 # Thesis Title: Denoising 3D TEM tomography via Advanced Neural Radiance Fields(NeRF) 
 
 
-## Thesis Architecture 🧩
+## Architecture 🧩
 ![Thesis Architecture](https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/0763edb5-8c52-4102-9a76-0730262c3c53)
 
 ## Result Denoising 
