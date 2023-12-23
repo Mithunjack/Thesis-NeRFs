@@ -15,7 +15,7 @@
 
 
 ### Dataset 7
-<img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/ab3d2f65-e0a6-492e-ba0b-7120f8b82df5" height="250">
+<img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/087960e9-3532-4e23-a1b7-ebba31761c3b" height="250">
 
 
 ## 3D Construction of TEM image(Dataset 4)
