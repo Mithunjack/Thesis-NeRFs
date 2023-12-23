@@ -9,12 +9,16 @@
 ### Dataset 1
 <img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/e8e882d7-68fb-48c2-94f2-6adcf75ad62e" height="250">
 
-### Dataset 4
+### Dataset 2
+<img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/57bd937c-614e-4087-aad5-112b042fa1ac" height="250">
+
+
+### Dataset 3
 <img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/6683d109-fdfe-4436-81df-ff20cc327e54" height="250">
 <img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/5a1fd5a8-1dc7-401a-b326-00b2c40ccb58" height="250">
 
 
-### Dataset 7
+### Dataset 4
 <img src="https://github.com/Mithunjack/Thesis-NeRFs/assets/23437429/087960e9-3532-4e23-a1b7-ebba31761c3b" height="250">
 
 
