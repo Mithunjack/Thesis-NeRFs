@@ -1,0 +1,87 @@
+\documentclass{ipn}
+
+\usepackage{ipnstyle}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{bookmark}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}   
+\usepackage{minted}
+\usepackage{wrapfig} 
+\usepackage{tabularx}
+\usepackage{geometry}
+% \usepackage{cite}
+\usepackage{listings}
+\usepackage{minted}
+\usemintedstyle{colorful}
+\usepackage{changepage}
+\usepackage{tocloft}
+\usepackage{newfloat}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{algcompatible}
+\usepackage{pifont}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\newcommand{\highest}[1]{\cellcolor{green!25}#1}
+\newcommand{\lowest}[1]{\cellcolor{red!25}#1}
+
+
+
+\author{Mithun Das}
+\title{Denoising 3D TEM tomography via Advanced Neural Radiance Fields}
+\schoolname{Department of Computer Science}
+\degree{M.Sc in Computer Science}
+\advisor{Prof. Dr. Peer Kröger}
+\coadvisor{Dr.-Ing. Claudius Zelenka}
+\academicyear{Enero 2025}
+
+\hypersetup{
+    colorlinks=false,
+    pdfauthor={Mithun Das},
+    pdftitle={Denoising 3D TEM tomography via Advanced Neural Radiance Fields},
+    pdfsubject={Thesis},
+    pdfkeywords={keyword1, keyword2, keyword3}
+    pdfproducer={Latex with hyperref},
+    pdfcreator={pdflatex}
+}
+
+\addbibresource{./references.bib}
+\pagestyle{headings}
+
+\begin{document}
+    \frontmatter
+        \maketitle
+        \input{frontmatter/abstract}
+        \input{frontmatter/acknowledgements}
+        \include{frontmatter/Declaration}
+        
+        \clearpage
+        \tableofcontents
+
+    \mainmatter
+        \include{chapters/Introduction}
+        \include{chapters/background}
+        \include{chapters/Related works}
+        \include{chapters/Datasets}
+        \include{chapters/Methodology}
+        \include{chapters/Implementation}
+        \include{chapters/Experiments & Results}
+        \include{chapters/conclusion}
+        \include{chapters/Future work}
+    
+        % \appendix
+            % \include{chapters/appendixA}
+            % \include{chapters/appendixB}
+    
+    \backmatter
+        \bookmarksetup{startatroot}
+        \printbibliography[heading=bibintoc]
+        \listoffigures
+        \listoftables
+\end{document}

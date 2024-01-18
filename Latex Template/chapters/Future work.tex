@@ -1,0 +1,20 @@
+\chapter{Future Scope}\label{ch:Future Work}
+
+As we conclude this thesis, we recognize that the field of 3D TEM tomography and Neural Radiance Fields (NeRF) is rapidly evolving, offering numerous avenues for future research. Our work has laid a foundation, but there is substantial scope for enhancement and exploration. In this chapter, we outline potential directions for future work.
+
+\section{Advancements in NeRF Models}
+The ongoing development and refinement of Neural Radiance Fields (NeRF) models offer significant opportunities for future research. One key area is enhancing model efficiency, particularly in terms of computational speed and resource consumption. Another crucial aspect is the development of models capable of handling more challenging scenarios, such as higher noise levels and complex image backgrounds.
+\vspace{10pt}
+
+As highlighted in our \ref{ch:Experiments & Results} chapter, a promising direction is the exploration of LU-NeRF, a potential NeRF model whose codebase has not yet been published. Implementing and testing LU-NeRF to ascertain if it offers improvements over our current architecture represents a vital area of future work. Additionally, recent advancements have seen the emergence of advanced NeRF models built upon the foundation similar to our NeRFMM. Investigating these models could provide valuable insights and enhancements for processing TEM images.
+
+
+\section{Extending Dataset Variety}
+To enhance the robustness and validate the effectiveness of Neural Radiance Fields (NeRF) models, diversifying the range of datasets used for training and testing is essential. Broadening the scope to include a more extensive array of TEM data, characterized by various noise levels and encompassing different biological and material samples, is crucial for this advancement. 
+
+\vspace{10pt}
+In our research, we encountered challenges in training certain datasets, notably as seen with \ref{fig:STEM Dataset 2}. Despite this, we hypothesize that our architecture has the potential to handle a wide range of TEM and STEM data. By exploring a more diverse set of datasets, we aim to uncover additional insights into the capabilities and limitations of our method. Furthermore, minor modifications to our architecture could potentially address the issues encountered with specific datasets like STEM Dataset 2. Such refinements would not only aid in resolving current challenges but also contribute to the broader applicability and effectiveness of NeRF models in diverse imaging contexts.
+  
+
+\section{Development of User-Friendly Software Tools}
+Enhancing the accessibility of Neural Radiance Fields (NeRF) through the development of user-friendly software tools is crucial in democratizing this technology for TEM tomography. Such tools should be designed to cater to a wide spectrum of users, ranging from researchers to professionals in various fields. A prime example to emulate is NerfStudio. This platform allows users to effortlessly upload their datasets and automatically generate outputs based on the methodologies discussed in this thesis. Incorporating features for hyperparameter tuning, similar to those found in NerfStudio, would significantly benefit material scientists and other researchers. This approach not only simplifies the process of using NeRF but also encourages broader experimentation and application in diverse scientific domains.

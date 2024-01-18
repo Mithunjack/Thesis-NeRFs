@@ -1,0 +1,121 @@
+\chapter{Implementation}\label{ch:Implementation}
+
+This section provides a comprehensive overview of the key steps taken to implement our integrated framework for denoising and analysis of TEM images, as depicted in Figure \ref{fig:ThesisArchitecture}. We build upon recent advances in Neural Radiance Fields, specifically the NeRF-MM architecture along with techniques from NAN-NeRF and NeRF-Dark, to address the noise and imaging challenges associated with TEM data. It outlines the development of these methods, specifically aimed at addressing denoise TEM Images. The implementation process is structured to illustrate each step, from initial environment setup to final execution. Emphasis is placed on key parts of the code and their contributions to the overall methodology, ensuring a comprehensive understanding of the applied techniques and how they integrate to achieve the objectives of this thesis.
+
+
+\subsection{Setup Overview}
+The NeRF-MM implementation was conducted within a Python environment, leveraging crucial libraries such as Torch and NumPy. Initial steps included setting the \texttt{CUDA\_LAUNCH\_BLOCKING=1} environment variable for synchronized CUDA operations and cloning the NeRF-MM repository from GitHub. To ensure the reproducibility of results, seed values for random, NumPy, and Torch were carefully set, and the deterministic behavior of PyTorch's backend (CUDNN) was enabled. The implementation extensively used core modules and utility functions from the NeRF-MM library, notably \texttt{encode\_position} and \texttt{volume\_rendering}, which play a vital role in positional encoding and volume operations within the neural radiance field framework.
+
+\subsection{Key Implementation Steps}
+The primary steps involved in the NeRF-MM implementation were as follows:
+\begin{enumerate}
+    \item \textbf{Data Preprocessing}: The data preparation phase involved importing and processing the TEM images, initially in grayscale BMP format, to fit our model's requirements. To align with our needs, these images were converted to JPG or PNG format and transformed into RGB color space. The dataset also had images of varying dimensions, posing a challenge for model training. To resolve this, we used a Python script for preprocessing, standardizing the shape and size of all images. This step was essential to ensure data consistency and efficient model training.
+
+    \item \textbf{Model Architecture}:We enhanced the TinyNerf class from NerfMM\cite{Wang2021} by integrating features from NAN-Nerf \cite{Pearl2022} and Nerf-Dark \cite{Mildenhall2021}, optimizing it for learning from noisy TEM data. Our updates included changes in layers, activation functions, and hyperparameters to better handle sparse TEM image sampling and noise.
+    \begin{adjustwidth}{20pt}{}
+    \begin{algorithm}
+    \caption{Enhanced TinyNerf Model Architecture}  
+    \begin{algorithmic}[1]
+    
+    \STATE \textbf{Class TinyNerf:}
+    \STATE Define Sequential Layers like Nerf-Dark:   
+    
+    \FOR{each layer in Sequential Layers}  
+    \STATE Add Linear Layer with Leaky ReLU Activation
+    \ENDFOR
+      
+    \STATE Define Density and RGB Layers    
+    \STATE Define RGB Output Layer  
+    
+    \STATE \textbf{Function Forward Pass:} 
+    \FOR{each input}  
+    \STATE Compute RGB Value
+    \STATE Concatenate RGB and Density
+    \STATE Return Concatenated Output
+    \ENDFOR  
+      
+    \end{algorithmic}
+    \end{algorithm}
+    \end{adjustwidth}
+
+    The revised TinyNerf effectively processes positional and directional encodings, improving scene density and RGB output computation. These enhancements enable our model to capture fine details and lighting variations in limited view radiance fields.
+    
+    This synergizing of neural network advancements in our TinyNerf adaptation improves representation learning and novel view synthesis from challenging TEM datasets.
+
+
+    \item \textbf{Training and Optimization}: The training and optimization of the NeRF-MM model were critical stages of the implementation. This process involved setting up and training a TinyNerf neural network model, fine-tuning camera pose parameters, and optimizing the focal length. A critical optimization technique implemented was an early stopping mechanism. The training process monitored the updates in camera parameters and halted the training prematurely if these parameters ceased to significantly change after a certain number of epochs. This approach ensured efficiency by avoiding unnecessary computations when the model had converged.
+
+
+    \begin{algorithm}
+    \caption{Training Process and Optimization}
+    \begin{algorithmic}[1]
+    \STATE Initialize training parameters
+    \FOR{each epoch in N\_EPOCH}
+        \STATE Compute L2 loss using train\_one\_epoch function
+        \STATE Calculate train\_psnr from L2 loss
+        \STATE Log PSNR value for current epoch
+        \STATE Check for convergence based on camera parameter updates
+        \IF{convergence criteria met}
+            \STATE Break the loop
+        \ENDIF
+        \STATE Update learning rate and training steps
+    \ENDFOR
+    \end{algorithmic}
+    \end{algorithm}
+
+    
+    In addition to image enhancement using a pre-trained model, our training loop incorporated crucial elements for optimal performance evaluation. This included calculating the peak signal-to-noise ratio (PSNR) and structural similarity index (SSIM) as metrics to quantify image quality improvements. To enhance the training process, we utilized a staircase exponential decay scheduler to dynamically adjust the learning rate. This strategic approach contributed to the model's effective convergence, ensuring stable and optimal performance.
+
+    \vspace{10pt}
+    
+    \item \textbf{Rendering and Visualization}: This phase focused on rendering 3D views using a spiral camera trajectory and visualizing camera poses \ref{fig:Camera Position Optimization}. The NeRF model rendered novel viewpoints, dynamically representing the scene. To optimize computational efficiency, images were resized without compromising visual quality. Rendered images and depth maps were saved as GIFs for detailed scene analysis. Additionally, camera pose visualization through animated plots provided insights into the model's spatial understanding, dynamically illustrating camera movement over training epochs.
+
+
+    \item \textbf{Post-processing}:
+    After generating the GIFs, key post-processing steps were applied to all frames for quality enhancement. This process includes:
+    
+    \begin{enumerate}
+        \item \textbf{Enhancing with ESRGAN}: Image enhancement was achieved using the ESRGAN model. This method focuses on upscaling and improving image resolution. The pre-trained ESRGAN model from TensorFlow Hub was utilized for this enhancement.
+
+        \vspace{10pt}
+        
+
+        \begin{algorithm}
+            \caption{Enhance Image using Pre-trained Model: ESRGAN}
+            \begin{algorithmic}[1]
+                
+                \STATE Load a pre-trained model from TensorFlow Hub
+                \STATE Convert the image at image\_path to a TensorFlow tensor and preprocess it
+                \STATE Normalize the RGB image by dividing by 255.0
+                \STATE Expand the dimensions of the RGB image to match the model input shape
+                \STATE Apply the pre-trained model to the preprocessed image
+                \STATE Squeeze the enhanced image to remove the batch dimension
+                \STATE Create directories in the save path if they don't exist
+                \STATE Save the grayscale output to the specified save path
+
+            \end{algorithmic}
+        \end{algorithm}
+
+        
+        
+        
+        \item \textbf{Denoising}: This step involves applying various denoising techniques to reduce noise artifacts. Methods such as wavelet, Gaussian blur, median filter, bilateral filter, and non-local means were used. Each technique was applied to the frames and the denoised images were saved in respective subfolders.
+
+
+        
+    
+    \end{enumerate}
+    
+    These techniques significantly improve the visual quality of the images, rendering them more suitable for in-depth analysis.
+    
+    
+        
+\end{enumerate}
+
+
+\subsection{Code Availability}
+The complete source code for this project, including all scripts and detailed documentation, is available on GitHub. It can be accessed at: 
+
+\href{https://github.com/Mithunjack/Thesis-NeRFs}{\color{blue}{https://github.com/Mithunjack/Thesis-NeRFs}}.
+
+

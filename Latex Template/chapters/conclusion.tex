@@ -1,0 +1,8 @@
+\chapter{Conclusions}\label{ch:Conclusions}
+This thesis has successfully demonstrated significant advancements in denoising 3D Transmission Electron Microscopy (TEM) tomography through the use of Advanced Neural Radiance Fields (NeRF). Our rigorous experimentation and thorough analysis across various datasets have highlighted NeRF's capability to markedly enhance the clarity and interpretability of TEM images, effectively addressing the high noise levels commonly found in such images.
+
+\vspace{10pt}
+In our study, we tackled the challenge of processing TEM images with NeRF, which was previously a significant concern. Our approach involved adapting NeRF models such as NeRFMM, NAN-NeRF, and NeRF in the Dark, and combining them with various denoising techniques, including ESRGAN. Remarkably, our method achieved impressive results, reaching a maximum PSNR of 38.70 and an SSIM value of 0.95 with our refined solution. Interestingly, traditional methods like Non-Local Means and Wavelet denoising at times outperformed ESRGAN, while other denoisers such as Bilateral, Gaussian, and Median consistently yielded suboptimal results. These findings provide valuable insights for future researchers, suggesting alternative directions to explore beyond these algorithms. Our work significantly improved image quality, as proven by extensive PSNR and SSIM analysis, demonstrating the efficacy of these techniques in enhancing the clarity of TEM data.
+
+\vspace{10pt}
+Although our solution did not succeed for the STEM Dataset 2, it was effective for all other datasets we experimented with. This research contributes to the fields of computational imaging and electron microscopy, showcasing how NeRF can be effectively utilized to create and denoise 3D TEM images.

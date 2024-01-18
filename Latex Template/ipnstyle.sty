@@ -1,0 +1,55 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ipnstyle}[2023/09/30 Custom IPN LaTeX style]
+
+\RequirePackage{standalone}
+\RequirePackage{listings}
+\RequirePackage{algpseudocode}
+\RequirePackage{algorithm}
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amsthm}
+\RequirePackage{amssymb}
+\RequirePackage{cancel}
+\RequirePackage[english]{babel}
+\RequirePackage{csquotes}
+\RequirePackage[backend=biber,style=numeric-comp,sorting=none]{biblatex}
+\RequirePackage{booktabs}
+
+\lstset {
+    basicstyle = \ttfamily\footnotesize,
+    keywordstyle = \color{uiored},
+    commentstyle = \color{uioblue},
+    stringstyle = \itshape,
+    showstringspaces = false
+}
+
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}{Lemma}[theorem]
+\newtheorem*{remark}{Remark}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\A}{\mathbb{A}}
+\renewcommand{\P}{\mathbb{P}}
+
+\renewcommand{\a}{\mathbf{a}}
+\renewcommand{\b}{\mathbf{b}}
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\y}{\mathbf{y}}
+\newcommand{\0}{\mathbf{0}}
+\newcommand{\1}{\mathbf{1}}
+
+\renewcommand{\qedsymbol}{\(\blacksquare\)}
+\newcommand{\arxiv}[1]{arXiv:\space\href{http://arxiv.org/abs/#1}{#1}\xspace}
+\newcommand{\ie}{\leavevmode\unskip, i.e.,\xspace}
+\newcommand{\eg}{\leavevmode\unskip, e.g.,\xspace}
+\newcommand{\python}{\textsc{Python}\xspace}
+\newcommand{\torch}{\textsc{PyTorch}\xspace}
+\newcommand{\tf}{\textsc{Tensorflow}\xspace}
+\newcommand{\jax}{\textsc{JAX}\xspace}
+\newcommand{\sklearn}{\textsc{scikit-learn}\xspace}
